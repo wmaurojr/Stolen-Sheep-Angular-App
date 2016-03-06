@@ -1,0 +1,158 @@
+[
+  {
+    "title": "Wilkes Barre Scranton International",
+    "imgUrl": "images/avp-web.jpg",
+    "category": "web",
+    "url": "http://www.flyavp.com"
+  },
+  {
+    "title": "NewStory",
+    "imgUrl": "images/newstory-web.jpg",
+    "category": "web",
+    "url": "http://www.newstory.com"
+  },
+  {
+    "title": "Arc Electric App",
+    "imgUrl": "images/arc-web.jpg",
+    "category": "web",
+    "url": ""
+  },
+  {
+    "title": "GoalsFit",
+    "imgUrl": "images/portfolio_web1.jpg",
+    "category": "web",
+    "url": "http://www.goalsfit.com"
+  },
+  {
+    "title": "CSSunset",
+    "imgUrl": "images/sunset-web.jpg",
+    "category": "web",
+    "url": ""
+  },
+  {
+    "title": "Vive Mobile Theme",
+    "imgUrl": "images/vive-web.jpg",
+    "category": "web",
+    "url": "http://www.vivehealthandfitness.com"
+  },
+  {
+    "title": "Lycoming Economic Development Foundation",
+    "imgUrl": "images/ledf-logo.jpg",
+    "category": "logo",
+    "url": ""
+  },
+  {
+    "title": "Namebrand Overstock",
+    "imgUrl": "images/nbo-logo-gs.jpg",
+    "category": "logo",
+    "url": "http://www.namebrandoverstock.com"
+  },
+  {
+    "title": "FoodTherm",
+    "imgUrl": "images/foodtherm-logo.jpg",
+    "category": "logo",
+    "url": ""
+  },
+  {
+    "title": "Highland Photography Studio",
+    "imgUrl": "images/hps-logo.jpg",
+    "category": "logo",
+    "url": "http://www.highlandphotography.com"
+  },
+  {
+    "title": "Broad Street Financial",
+    "imgUrl": "images/bsf-logo.jpg",
+    "category": "logo",
+    "url": ""
+  },
+  {
+    "title": "Mountain Modifiers",
+    "imgUrl": "images/mm-logo-gs.jpg",
+    "category": "logo",
+    "url": ""
+  },
+  {
+    "title": "Star Trek Infographic",
+    "imgUrl": "images/startrek-print.jpg",
+    "category": "print",
+    "url": ""
+  },
+  {
+    "title": "Vendredi Promotion",
+    "imgUrl": "images/vendredi-print.jpg",
+    "category": "print",
+    "url": ""
+  },
+  {
+    "title": "Goalsfit Poster",
+    "imgUrl": "images/goalsfit-print.jpg",
+    "category": "print",
+    "url": ""
+  },
+  {
+    "title": "Eugene Beauty Promotion",
+    "imgUrl": "images/gaa-print.jpg",
+    "category": "print",
+    "url": ""
+  },
+  {
+    "title": "DiSalvos Billboard",
+    "imgUrl": "images/dsv1-print.jpg",
+    "category": "print, paint",
+    "url": ""
+  },
+  {
+    "title": "DiSalvos Mailer",
+    "imgUrl": "images/dsv2-print.jpg",
+    "category": "print",
+    "url": ""
+  },
+  {
+    "title": "Odyssey Test Prep Map",
+    "imgUrl": "images/otp-print.jpg",
+    "category": "print",
+    "url": ""
+  },
+  {
+    "title": "Bill of Lading",
+    "imgUrl": "images/bol1-paint.jpg",
+    "category": "paint",
+    "url": ""
+  },
+  {
+    "title": "Bill of Lading 2",
+    "imgUrl": "images/bol2-paint.jpg",
+    "category": "paint",
+    "url": ""
+  },
+  {
+    "title": "Custom Jazzmaster",
+    "imgUrl": "images/jm-paint.jpg",
+    "category": "paint",
+    "url": ""
+  },
+  {
+    "title": "On the Malaya Nevka",
+    "imgUrl": "images/malaya-nevka-paint.jpg",
+    "category": "paint",
+    "url": ""
+  },
+  {
+    "title": "Betta Study",
+    "imgUrl": "images/betta-paint.jpg",
+    "category": "paint",
+    "url": ""
+  },
+  {
+    "title": "Bad Blood",
+    "imgUrl": "images/badblood-paint.jpg",
+    "category": "paint",
+    "url": ""
+  },
+  {
+    "title": "Bull (Detail)",
+    "imgUrl": "images/bullshit-paint.jpg",
+    "category": "paint",
+    "url": ""
+  }
+]

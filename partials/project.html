@@ -1,0 +1,18 @@
+<!-- <body class="portfolioPage"> -->
+<hr class="fancy_hr">
+<div class="content" ng-controller="projectController">
+	<h2 class="projectTitle">{{ project.title }}</h2>
+	<a ng-hide="!project.url" class="projectUrl" target="_blank" href="{{project.url}}">{{project.url}}</a>
+	<img ng-hide="!project.thumb1" class="projectThumb" ng-src="{{project.thumb1}}" alt="{{ project.title }} 1">
+	<p ng-hide="!project.description" class="projectDescription">{{ project.description }}</p>
+	<img ng-hide="!project.thumb2" class="projectThumb" ng-src="{{project.thumb2}}" alt="{{ project.title }} 2">
+
+	<div ng-hide="!project.features">
+		<p class="projectDescription">{{ project.features }}</p>
+	</div>
+
+	<img ng-hide="!project.thumb3" class="projectThumb" ng-src="{{project.thumb3}}" alt="{{ project.title }} 3">
+	<img ng-hide="!project.thumb4" class="projectThumb" ng-src="{{project.thumb4}}" alt="{{ project.title }} 4">
+	<img ng-hide="!project.thumb5" class="projectThumb" ng-src="{{project.thumb5}}" alt="{{ project.title }} 5">
+</div>
+<!-- </body> -->

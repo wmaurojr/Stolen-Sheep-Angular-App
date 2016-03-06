@@ -1,0 +1,462 @@
+/*****************************
+	   	 BASE STYLES
+*****************************/
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+hr.fancy_hr {
+  margin: 24px auto;
+  border: 0;
+  max-width: 90%;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,.1),rgba(0,0,0,0));
+  background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,.1),rgba(0,0,0,0));
+  background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,.1),rgba(0,0,0,0));
+  background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,.1),rgba(0,0,0,0));
+}
+
+/*****************************
+	   	Loading Page
+*****************************/
+
+#loader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 9999;
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+}
+
+.airportTitle {
+	color: #555;
+	text-align: center;
+	font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+	font-weight: 400;
+	margin: 0 0 0 -35px;
+	position: absolute;
+	z-index: 9999;
+	left: 50%;
+	top: 50%;
+	font-size: 3rem;
+}
+
+#stolen { margin-top: -70px; }
+#sheep { margin-top: -42px; }
+#design { margin-top: -12px;}
+
+#sheepOutline {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -250px 0 0 -250px;
+	z-index: 999;
+}
+
+#logoFiller {
+	width: 500px;
+	height: 500px;
+	position: relative;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -250px 0 0 -250px;
+	z-index: 997;
+	background-color: #fff;
+}
+
+#colorMask {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background-color: #fff;
+	z-index: 998;
+	display: none;
+}
+
+/*****************************
+			HEADER
+*****************************/
+
+#logoContainer {
+	position: relative;
+	width: 125px;
+	height: 100px;
+	// background-color: #fff;
+	cursor: pointer;
+	z-index: 9999;
+	display: none;
+}
+
+#logo {
+	position: absolute;
+	cursor: pointer;
+}
+
+#logoColorMask {
+	position: absolute;
+	right: 0;
+	width: 125px;
+	height: 100px;
+	// background-color: #fff;
+	cursor: pointer;
+	display: none;
+}
+
+.nav {
+	width: 0;
+	max-height: 80px;
+    background-color: #eee;
+    padding: 0;
+    border-radius: 7px;
+    position: absolute;
+    z-index: 9999;
+    top: 10px;
+    left: 130px;
+}
+
+.nav ul {
+	margin: 0;
+	padding-left: 17px;
+	display: none;
+}
+
+.nav ul a { color: #333; }
+.nav ul a:hover { color: #58b6ff; }
+
+.nav li.menu-item {
+	list-style-type: none;
+	margin: 10px;
+	float: left;
+	font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+}
+
+.nav li.menu-item:nth-of-type(3) {
+	clear: left;
+}
+
+/*****************************
+			FOOTER
+*****************************/
+
+.footer {
+	margin-top: 40px;
+	width: 100%;
+	display: inline-block;
+}
+
+.copyright {
+	text-align: center;
+	color: #888;
+	line-height: 1.2em;
+	z-index: 2;
+}
+
+/*****************************
+			ABOUT
+*****************************/
+
+.content {
+	position: relative;
+	z-index: 1;
+	padding: 0 30px;
+}
+
+.aboutPage {
+	background-color: #fff;
+	position: absolute;
+    padding: 0 30px;
+    z-index: 1;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#portrait {
+	position: absolute;
+	left: 50%;
+	margin-left: -300px;
+	top: 75px;
+	width: 240px;
+}
+
+.readMore {
+	font-family: 'Gentium Book Basic', serif;
+	height: 100%;
+    width: 75%;
+    font-size: 1.5em;
+	margin: 360px auto 0 auto;
+    color: #aaa;
+    text-align: justify;
+}
+
+.readMore a {
+	color: #58b6ff;
+	text-decoration: none;
+}
+
+#aboutButton {
+	background-color: transparent;
+	background: transparent;
+	border: 2px solid #58b6ff;
+	border-radius: 5px;
+	width: 110px;
+	height: 40px;
+	color: #58b6ff;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+
+}
+
+#titles {
+	position: absolute;
+	left: 50%;
+	margin-left: -40px;
+	top: 90px;
+	font-size: 3rem;
+	color: #58b6ff;
+}
+
+#variable {
+	text-transform: capitalize;
+}
+
+/*****************************
+	       PORTFOLIO
+*****************************/
+
+ul.portfolioCategories {
+	text-align: center;
+	background-color: #eee;
+}
+
+li.portfolioCategory {
+	display: inline-block;
+	text-transform: uppercase;
+	color: #444;
+	margin: 7px 30px;
+}
+
+li.portfolioCategory:hover {
+	background-color: #58b6ff;
+	color: #fff;
+	cursor: pointer;
+}
+
+.portfolioPage .content {
+	height: 550px;
+	padding: 25px;
+}
+
+.portfolioContainer {
+	width: 100%;
+	height: inherit;
+	background-color: #fefefe;
+	position: relative;
+	cursor: pointer;
+}
+
+.portfolioItem {
+	position: relative;
+	float: left;
+	width: 50%;
+	height: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+	cursor: pointer!important;
+}
+
+.portfolioDetails {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.8);
+	display: none;
+	color: #fff;
+	cursor: pointer!important;
+}
+
+.portfolioItem:hover .portfolioDetails { display: block;}
+
+.homeProjectTitle {
+	font-family: 'Coda';
+	text-align: center;
+}
+
+/*****************************
+	   	 PROJECT PAGES
+*****************************/
+
+.projectTitle {
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	color: #777;
+}
+
+.projectUrl {
+	text-align: center;
+    display: block;
+    font-size: 1.8em;
+    color: #ccc;
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+.projectThumb {
+	display: block;
+	margin: 40px auto;
+	max-width: 80%;
+}
+
+.projectDescription {
+	font-family: 'Gentium Book Basic', serif;
+	text-align: justify;
+	width: 50%;
+	margin: 100px auto;
+	display: block;
+	color: #888;
+	font-size: 2rem;
+}
+
+.projectDescription:nth-child(2) {
+	margin-top: 40px;
+}
+
+.featuresHeader {
+	margin-top: 100px;
+	text-align: center;
+}
+
+/*****************************
+	   	    CONTACT
+*****************************/
+
+.panel-body {
+	padding: 0 10% 10%;
+}
+
+.hidden {
+    display: none;
+}
+.vertical-middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+.message {
+    padding: 15px; 
+    margin: 0;
+}
+
+.panel {
+    border: none!important;
+    box-shadow: none!important;
+    -webkit-box-shadow: none!important;
+}
+
+input[type="text"], input[type="email"], textarea {
+    background-color: #eee!important;
+    border: none!important;
+}
+
+button[type="submit"] {
+    background-color: #58f9ab;
+    color: white;
+    background-image: none!important;
+    border: none!important;
+    height: 160px;
+    width: 160px;
+    text-shadow: none!important;
+    box-shadow: none!important;
+    -webkit-box-shadow: none!important;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    font-size: 2.3rem;
+}
+
+button[type="submit"]:hover {
+    background-color: #58b6fe;
+    color: #333;
+
+}
+
+#messageCol {
+    width: 68%;
+    float: left;
+}
+
+#inputMessage {
+    /*width: 70%;*/
+    height: 160px;
+}
+
+#daHoof {
+	float: right;
+	margin-top: -100px;
+}
+
+/*****************************
+	   	 MEDIA QUERIES
+*****************************/
+@media all and (min-width: 1300px) {
+	.portfolioItem {
+		height: 350px;
+	}
+}
+
+@media all and (max-width: 767px) {
+
+	ul.portfolioCategories {
+		padding-left: 10px;
+	}
+
+	li.portfolioCategory {
+		font-size: 0.8em;
+		margin: 7px 10px;
+	}
+
+	.portfolioItem {
+		width: 100%;
+	}
+	.projectDescription {
+		width: 70%;
+		font-size: 1em;
+	}
+	#daHoof {
+		display: none;
+	}
+
+	.panel-body button[type="submit"]  {
+		width: 30%;
+	}
+
+	#portrait {
+		width: 200px;
+		top: 75px;
+		margin-left: -100px;
+	}
+
+	#titles { display: none; }
+	.readMore { top: 320px; font-size: 1em; }
+
+	#sheepOutline {
+		width: 300px;
+		margin: -150px 0 0 -150px;
+	}
+
+
+}

@@ -1,0 +1,10 @@
+{
+    "title": "NewStory",
+    "thumb1": "images/newstory-thumb1.jpg",
+    "thumb2": "images/newstory-thumb2.jpg",
+    "thumb3": "images/newstory-thumb3.jpg",
+    "category": "web",
+    "description": "NewStory.com was both challenging and rewarding. With 11 locations scattered throughout Pennsylvania and Ohio, New Story needed a site that offered the abilities to aggregate information from the various sites, unify their brand across disparate schools each with its own offerings, and keep the look lighthearted and colorful.",
+    "features": "NewStory.com afforded me my first opportunity to develop with Wordpress Multi-site. Each school can post jobs and events to the 'main' site while displaying proprietary information at a unique subdomain. I used Elliot Condon's Advanced Custom Fields extensively throughout the site to make updates intuitive for administrators; they can swap banners, select icons, even populate a custom jQuery tabs template all from the Dashboard.",
+    "url": "http://www.newstory.com"
+}

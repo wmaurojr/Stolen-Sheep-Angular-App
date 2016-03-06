@@ -1,0 +1,10 @@
+{
+    "title": "Vive Mobile Theme",
+    "thumb1": "images/vive-thumb1.jpg",
+    "thumb2": "images/vive-thumb2.jpg",
+    "thumb3": "images/vive-thumb3.jpg",
+    "category": "web",
+    "description": "Vive Health & Fitness already had a website and great branding (the latter provided by the talended Kristen Blake (http://www.kristenblakecreative.com)) when I started on this project. The goal was a mobile-only theme with clean UI that built off of the work established by Kristen, tying the mobile and desktop sites together.",
+    "features": "While the mobile theme was being developed, we included a calendar that can be accessed via desktop or mobile. Now mobile users can quickly check out the latest promotion, look up the next class time, or reach out to the gym with just a few taps.",
+    "url": "http://www.vivehealthandfitness.com"
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Arc Electric App (Design Only)",
+    "thumb1": "images/ArcLogo.gif",
+    "thumb2": "images/arc-thumb2.jpg",
+    "thumb3": "images/arc-thumb3.jpg",
+    "thumb4": "images/arc-thumb1.jpg",
+    "thumb5": "images/arc-thumb4.jpg",
+    "category": "web",
+    "description": "This project was a chance to work with friend and Jedi developer Jon Freynik (http://www.headslab.com). Arc Electric has field-reps that have to build extensive work orders in locations like warehouses or factories where wi-fi is scarce. Jon created an Angular.js app that stores data in a local database until the rep gets to a wi-fi connection, where their work order will be added to the 'communal' database. My task was to provide an intuitive UI for navigating and drafting work orders that could work on a range of mobile devices. I'm told the client was thrilled with the end result, and I loved the excuse to work directly with Jon (whose moves I'm continually trying to steal)."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Wilkes Barre Scranton International",
+    "thumb1": "images/avp-thumb1.jpg",
+    "thumb2": "images/avp-thumb2.jpg",
+    "thumb3": "images/avp-thumb3.jpg",
+    "thumb4": "images/avp-thumb4.jpg",
+    "thumb5": "images/avp-thumb5.jpg",
+    "description": "Wilkes-Barre Scranton International Airport's site launched in February of this year and offered a plethora of challenges. I didn't design the site, working instead with a designer and creative director. The original design featured a checkered-pattern display of posts to which I added the ability to filter. I wrote a custom shortcode to easily link and display documents, and created the template that pulls arrival and departure information from an XML feed into an easy-to-read table.",
+    "features": "FlyAVP.com was another site for which I used Elliot Condon's Advanced Custom Fields, but in ways that I never have before. The client can customize the text, images, and links associated with parallax sliders, create complex nested loops to display subsets of content, and populate the custom Team Members section, where name, title, quote, and portrait are highlighted as you mouse over each member. I used what I learned on the NewStory.com build's sidebar-navigation template, but extended it so that groups of documents can be associated with each tab, tabs can contain further sets of content, and clicking on an item scrolls automatically to its associated content (especially useful on mobile devices).",
+    "category": "web",
+    "url": "http://www.flyavp.com"
+}

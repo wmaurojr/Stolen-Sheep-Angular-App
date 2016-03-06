@@ -1,0 +1,24 @@
+<body class="portfolioPage">
+
+    <div class="content" ng-controller="PortfolioController">
+
+      <ul class="portfolioCategories">
+        <a class="preventDefault" ng-click="filters.category = 'web'" href="javascript:void(0);"><li class="portfolioCategory">Web</li></a>
+        <a class="preventDefault" ng-click="filters.category = 'print'" href="javascript:void(0);"><li class="portfolioCategory">Print</li></a>
+        <a class="preventDefault" ng-click="filters.category = 'logo'" href="javascript:void(0);"><li class="portfolioCategory">Logo</li></a>
+        <a class="preventDefault" ng-click="filters.category ='paint'" href="javascript:void(0);"><li class="portfolioCategory">Paint</li></a>
+      </ul>
+
+      <div class="portfolioContainer">
+       <div ng-repeat="project in projects | filter: filters" class="portfolioItem" ng-style="{'background-image': 'url({{ project.imgUrl }})'}">
+       
+          <a href="#/portfolio/{{project.title}}">
+            <div class="portfolioDetails">
+            <h2 class="homeProjectTitle">{{project.title}}</h2>
+            </div>
+          </a>
+      </div>
+      </div>
+    </div>
+
+</body>
